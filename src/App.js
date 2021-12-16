@@ -20,7 +20,7 @@ class App extends React.Component {
           </div>
         ) : (
           movies.map((movie) => {
-            console.log(movie);
+            // console.log(movie);
             return (
               <div className="movies">
                 <Movie

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Movie.css";
 
-function Movie({ id, year, title, sumary, genres, poster }) {
+function Movie({ year, title, sumary, genres, poster }) {
   return (
     <div className="movie">
       <img className="movie-poster" src={poster} alt={poster} />
